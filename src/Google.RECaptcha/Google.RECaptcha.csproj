@@ -7,9 +7,9 @@
     <ProjectGuid>{3601D189-E0C0-4FED-A805-91DE7CAE1690}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>hbehr.recaptcha</RootNamespace>
-    <AssemblyName>hbehr.recaptcha</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RootNamespace>Google.recaptcha</RootNamespace>
+    <AssemblyName>Google.recaptcha</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>

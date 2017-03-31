@@ -1,4 +1,4 @@
-/*
+﻿/*
  * The MIT License (MIT)
  * 
  * Copyright (c) 2015 - 2017 Henrique B. Behr
@@ -21,14 +21,27 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-using System.Net;
-using System.Threading.Tasks;
+using NUnit.Framework;
+using System;
+using System.Diagnostics;
 
-namespace hbehr.recaptcha.WebInterface
+namespace Google.RECaptcha.unittest
 {
-    internal interface IReChaptaWebInterfaceAsync
+    public class TimedTests
     {
-        Task<ReCaptchaJsonResponse> PostUserAnswerAsync(string response, string secretKey);
-        Task<ReCaptchaJsonResponse> PostUserAnswerAsync(string response, string secretKey, WebProxy proxy);
+        private Stopwatch _stopwatch;
+
+        [SetUp]
+        public void SetUp()
+        {
+            Console.WriteLine("Start Timer");
+            _stopwatch = Stopwatch.StartNew();
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            Console.WriteLine("Tempo: {0}", _stopwatch.Elapsed);
+        }
     }
 }

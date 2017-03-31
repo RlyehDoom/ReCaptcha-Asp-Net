@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("hbehr.recaptcha.unittest")]
+[assembly: AssemblyTitle("Google.RECaptcha.unittest")]
 [assembly: AssemblyDescription("Unit Tests")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Henrique Borba Behr")]
-[assembly: AssemblyProduct("hbehr.recaptcha.unittest")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
+[assembly: AssemblyCompany("Iconexa S.A")]
+[assembly: AssemblyProduct("Google.RECaptcha.unittest")]
+[assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

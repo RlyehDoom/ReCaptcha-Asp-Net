@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("hbehr.recaptcha")]
+[assembly: AssemblyTitle("Google.RECaptcha")]
 [assembly: AssemblyDescription("Recaptcha simplified for ASP.NET")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Henrique Borba Behr")]
-[assembly: AssemblyProduct("hbehr.recaptcha")]
+[assembly: AssemblyCompany("Iconexa S.A")]
+[assembly: AssemblyProduct("Google.RECaptcha")]
 [assembly: AssemblyCopyright("Copyright © 2015 - 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

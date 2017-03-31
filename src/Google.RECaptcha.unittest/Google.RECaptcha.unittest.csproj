@@ -6,9 +6,9 @@
     <ProjectGuid>{81C56372-2ECD-47EB-A88C-2C5514D8699B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>hbehr.recaptcha.unittest</RootNamespace>
-    <AssemblyName>hbehr.recaptcha.unittest</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RootNamespace>Google.RECaptcha.unittest</RootNamespace>
+    <AssemblyName>Google.RECaptcha.unittest</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -42,6 +42,7 @@
       <HintPath>..\packages\NUnit.3.6.0\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Web" />
   </ItemGroup>
   <Choose>
@@ -58,14 +59,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\hbehr.recaptcha\hbehr.recaptcha.csproj">
-      <Project>{3601d189-e0c0-4fed-a805-91de7cae1690}</Project>
-      <Name>hbehr.recaptcha</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Google.RECaptcha\Google.RECaptcha.csproj">
+      <Project>{3601d189-e0c0-4fed-a805-91de7cae1690}</Project>
+      <Name>Google.RECaptcha</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
